@@ -1,0 +1,51 @@
+.imagedefond{
+    background-image: url('https://img.freepik.com/photos-gratuite/mur-beton-gris_53876-88973.jpg?size=626&ext=jpg&ga=GA1.1.2104514562.1688573866&semt=sph');
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins' sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: rgb(194, 124, 124);
+}
+
+.wrapper{
+    margin: 100px auto;
+    width: 100%;
+}
+img{
+    max-width: 400px;
+    float: right;
+    border: 3px solid #fff;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+.text-box{
+
+    color: black;
+}
+.text-box h2{
+    font-size: 42px;
+}
+.text-box p{
+    font-size: 16px;
+}
+
+
